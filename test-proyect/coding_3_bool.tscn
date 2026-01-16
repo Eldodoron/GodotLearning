@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b60axybo3pdco"]
+
+[ext_resource type="Script" uid="uid://celoybd6tkjbv" path="res://coding_3_bool.gd" id="1_v4i2v"]
+[ext_resource type="Texture2D" uid="uid://bauq6tlufnm53" path="res://icon.svg" id="2_kpkfh"]
+
+[node name="Coding 3 bool" type="Node2D"]
+script = ExtResource("1_v4i2v")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(87, 534)
+texture = ExtResource("2_kpkfh")

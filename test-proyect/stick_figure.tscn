@@ -1,0 +1,52 @@
+[gd_scene load_steps=2 format=3 uid="uid://dycqt3jwme0x6"]
+
+[ext_resource type="Texture2D" uid="uid://bauq6tlufnm53" path="res://icon.svg" id="1_vhirs"]
+
+[node name="StickFigure" type="Node2D"]
+
+[node name="Torso" type="Sprite2D" parent="."]
+position = Vector2(532, 191)
+texture = ExtResource("1_vhirs")
+
+[node name="Head" type="Sprite2D" parent="Torso"]
+position = Vector2(1.0000002, -95.00001)
+scale = Vector2(0.515625, 0.515625)
+texture = ExtResource("1_vhirs")
+
+[node name="LeftLeg" type="Sprite2D" parent="Torso"]
+position = Vector2(-34.000004, 118.000015)
+rotation = 0.07853982
+scale = Vector2(0.21875003, 0.9218751)
+texture = ExtResource("1_vhirs")
+
+[node name="RightLeg" type="Sprite2D" parent="Torso"]
+position = Vector2(39.999996, 119.000015)
+rotation = -0.07853982
+scale = Vector2(0.21875003, 0.9218751)
+texture = ExtResource("1_vhirs")
+
+[node name="RightArm1" type="Sprite2D" parent="Torso"]
+position = Vector2(93.999985, -11.000006)
+rotation = 0.31415927
+scale = Vector2(0.609375, 0.296875)
+texture = ExtResource("1_vhirs")
+
+[node name="RightArm2" type="Sprite2D" parent="Torso/RightArm1"]
+position = Vector2(99.72776, -24.011251)
+rotation = -0.70462626
+scale = Vector2(1.0214882, 0.7378741)
+skew = 0.505504
+texture = ExtResource("1_vhirs")
+
+[node name="LeftArm1" type="Sprite2D" parent="Torso"]
+position = Vector2(-89.99997, -3)
+rotation = -0.3926991
+scale = Vector2(0.60937494, 0.296875)
+texture = ExtResource("1_vhirs")
+
+[node name="LeftArm2" type="Sprite2D" parent="Torso/LeftArm1"]
+position = Vector2(-104.526024, 39.259956)
+rotation = -0.7046262
+scale = Vector2(1.026444, 0.75858647)
+skew = 0.5055038
+texture = ExtResource("1_vhirs")

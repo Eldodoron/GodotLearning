@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://x53wik4lpj16"]
+
+[ext_resource type="Script" uid="uid://bnatp1sxcmofo" path="res://coding_4_data_2.gd" id="1_tht8v"]
+[ext_resource type="Texture2D" uid="uid://bauq6tlufnm53" path="res://icon.svg" id="2_y5h08"]
+
+[node name="coding_4_data2" type="Node2D"]
+script = ExtResource("1_tht8v")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(212, 411)
+texture = ExtResource("2_y5h08")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 0.34901962, 1)
+position = Vector2(508, 414)
+texture = ExtResource("2_y5h08")
+
+[node name="Icon3" type="Sprite2D" parent="."]
+modulate = Color(1, 0.37254903, 1, 1)
+position = Vector2(209, 199)
+texture = ExtResource("2_y5h08")
+
+[node name="Icon4" type="Sprite2D" parent="."]
+modulate = Color(0.3137255, 1, 1, 1)
+position = Vector2(518, 212)
+texture = ExtResource("2_y5h08")

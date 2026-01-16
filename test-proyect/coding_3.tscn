@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwu275d420s0t"]
+
+[ext_resource type="Script" uid="uid://dn4krt16btubh" path="res://coding_3.gd" id="1_8ic8g"]
+[ext_resource type="Texture2D" uid="uid://bauq6tlufnm53" path="res://icon.svg" id="2_qu4ji"]
+
+[node name="Coding 3" type="Node2D"]
+script = ExtResource("1_8ic8g")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(211, 121)
+texture = ExtResource("2_qu4ji")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+modulate = Color(3.1321943, 1.1106553, 3.144086, 1)
+position = Vector2(211, 121)
+texture = ExtResource("2_qu4ji")

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dirr0r1143wey"]
+
+[ext_resource type="Script" uid="uid://dtc5ygq8yfyav" path="res://first_scene.gd" id="1_5qpg1"]
+[ext_resource type="Texture2D" uid="uid://bauq6tlufnm53" path="res://icon.svg" id="1_ngiyr"]
+[ext_resource type="PackedScene" uid="uid://dycqt3jwme0x6" path="res://stick_figure.tscn" id="2_y5rs1"]
+
+[node name="FirstScene" type="Node2D"]
+script = ExtResource("1_5qpg1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(305, 83)
+texture = ExtResource("1_ngiyr")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D"]
+modulate = Color(7.7939773, 1.2015687, 6.398758, 1)
+position = Vector2(-198, 32)
+texture = ExtResource("1_ngiyr")
+
+[node name="StickFigure" parent="." instance=ExtResource("2_y5rs1")]
+position = Vector2(305, 83)
