@@ -9,6 +9,7 @@ func _ready() -> void:
 	print($Icon.position)
 	print(Vector2(3,3.5)*2)
 	print()
+	print("hola mundo")
 	
 func _process(delta: float) -> void:
 	
