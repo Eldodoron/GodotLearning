@@ -19,7 +19,3 @@ func _process(delta: float) -> void:
 	$Icon3.position += direction2
 	$Icon4.position += direction * speed
 	
-
-	
-	
-	
